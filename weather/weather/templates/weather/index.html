@@ -9,10 +9,33 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-<link
-    <div class="container">
-<h1>Weather</h1>
-<h3>Confirm your city <button type="submit" class="btn btn-success">Minsk</button></h3>
+
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+        <span class="fs-4">Weather forecast</span>
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Home page</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Info</a>
+      </nav>
     </div>
+        <div class="container mt-5">
+            <div row="row">
+                <div class="col-5 offset-1">
+                    <form action="">
+                        <label for="city">City</label>
+                        <input type="text" id="city" class="form-control" name="city" placeholder="Enter your city">
+                        <input type="submit" name="send" value="find out" class="mt-2 btn btn-danger">
+                    </form>
+                            <div class="col-4 offset-1">
+                                <h1>Info</h1>
+                                <div class="alert alert-danger">
+                                    Weather in Minsk
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
 </body>
 </html>
